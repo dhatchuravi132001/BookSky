@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TAMILBOOKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="div"><h1>TAMILBOOK</h1></div>
+    <div class="container">
+        <div class="book-container">
+            <h2>THIRUKURAL</h2>
+            <h5>-THIRUVALLUVAR</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime illo in eligendi libero itaque soluta ipsam pariatur aspernatur eveniet explicabo praesentium facere error quas eius, unde nam beatae laboriosam! Enim.
+            </p>
+            <button onclick="del(event)">Delete</button>
+         </div>
+
+    </div>
+    <div class="overlay"></div>
+    <div class="popup-box">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="ADD BOOK TITLE" id="book-title-input">
+            <input type="text" placeholder="ADD AUTHOR NAME" id="book-author-input">
+            <textarea placeholder="SHORT DESCRIPTION" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button> 
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button"> + </button>
+     
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
